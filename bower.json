@@ -1,0 +1,40 @@
+{
+  "name": "polymer-to-do",
+  "description": "A simple app to collaboratively manage to do lists online. Also my first Polymer app.",
+  "main": "index.html",
+  "keywords": [
+    "todo",
+    "tasks",
+    "collaborative",
+    "polymer",
+    "pubnub"
+  ],
+  "authors": [
+    "Matthew Bird <matthew@thebirds.ca>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "iron-icon": "PolymerElements/iron-icon#^2.0.1",
+    "paper-fab": "PolymerElements/paper-fab#^2.0.0",
+    "paper-checkbox": "PolymerElements/paper-checkbox#^2.0.1",
+    "iron-input": "PolymerElements/iron-input#^2.0.0",
+    "paper-input": "PolymerElements/paper-input#^2.0.1",
+    "paper-drawer-panel": "PolymerElements/paper-drawer-panel#^2.0.0",
+    "paper-button": "PolymerElements/paper-button#^2.0.0",
+    "paper-menu": "PolymerElements/paper-menu#^1.3.0"
+  },
+  "resolutions": {
+    "polymer": "^2.0.0",
+    "webcomponentsjs": "^v1.0.2"
+  }
+}
