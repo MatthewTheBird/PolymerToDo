@@ -65,7 +65,7 @@
             </paper-header-panel>
         </paper-drawer-panel>
         
-        <core-pubnub publish_key="pub-c-210829a7-fbe8-4e3c-9f0b-202b723c89c1" subscribe_key="sub-c-65d7ce4c-85e8-11e7-bdc2-6e5eeb112503">
+        <core-pubnub publish_key="pub-c-210829a7-fbe8-4e3c-9f0b-202b723c89c1" subscribe_key="sub-c-65d7ce4c-85e8-11e7-bdc2-6e5eeb112503" ssl="true">
             <core-pubnub-publish id="pub" channel="todo" message="Test"> </core-pubnub-publish>
             <core-pubnub-subscribe id="sub" channel="todo" messages="{{messages}}" presence="{{present}}" on-callback="subscribeCallback"></core-pubnub-subscribe>  
         </core-pubnub>
