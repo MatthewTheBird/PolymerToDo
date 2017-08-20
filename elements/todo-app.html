@@ -20,13 +20,13 @@
 <paper-drawer-panel>
     <paper-header-panel drawer>
         <paper-toolbar>
-            <paper-item>Side Bar Title</paper-item>
+            <paper-item>Polymer To Do</paper-item>
         </paper-toolbar>
 
         <paper-menu class="list">
             <template is="dom-if" if="{{!done.length}}">
                 <paper-material>
-                    <paper-item>Completed tasks will appear here!</paper-item>
+                    <paper-item>Completed tasks will appear here</paper-item>
                 </paper-material>
             </template>
             <template id="done" is="dom-repeat" items="{{done}}">
@@ -37,7 +37,7 @@
     </paper-header-panel>
     <paper-header-panel main>
         <paper-toolbar>
-            <paper-item>Main Body Title</paper-item>
+            <paper-item>To Dos</paper-item>
         </paper-toolbar>
 
         <div style="border-left: 1px solid #ccc;">
