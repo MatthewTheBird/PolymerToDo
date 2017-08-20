@@ -32,7 +32,9 @@
     "paper-drawer-panel": "PolymerElements/paper-drawer-panel#^2.0.0",
     "paper-button": "PolymerElements/paper-button#^2.0.0",
     "paper-menu": "PolymerElements/paper-menu#^1.3.0",
-    "pubnub-element": "^4.0.1"
+    "pubnub-element": "^4.0.1",
+    "paper-material": "PolymerElements/paper-material#^2.0.0",
+    "paper-item": "PolymerElements/paper-item#^2.0.0"
   },
   "resolutions": {
     "polymer": "^2.0.0",
